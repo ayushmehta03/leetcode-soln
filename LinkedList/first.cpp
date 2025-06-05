@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+#include<iostream>
+#include<vector>
 using namespace std;
 struct Node{
     public:
@@ -13,7 +13,7 @@ struct Node{
     }
 };
 int main(){
-    vector<int>arr={2,5,8,9};
-    Node *y= new Node(arr[1],nullptr);
+    vector<int>arr={2,5,9,11};
+    Node*y= new Node(arr[0],nullptr);
     cout<<y;
 }
